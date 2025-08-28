@@ -1,0 +1,27 @@
+.scroll-bar-translate-z {
+  transform: translateZ(200px);
+}
+
+@media (min-width: 576px) {
+  .scroll-bar-translate-z {
+    transform: translateZ(350px);
+  }
+}
+
+@media (min-width: 768px) {
+  .scroll-bar-translate-z {
+    transform: translateZ(350px);
+  }
+}
+
+@media (min-width: 996px) {
+  .scroll-bar-translate-z {
+    transform: translateZ(25dvw);
+  }
+}
+
+@media (min-width: 1200px) {
+  .scroll-bar-translate-z {
+    transform: translateZ(20dvw);
+  }
+}

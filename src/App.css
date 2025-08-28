@@ -1,0 +1,59 @@
+.main-bg-container {
+  background: url("/images/nebulae.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.crawl {
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #feda4a;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+  position: relative;
+  perspective: 400px;
+  margin: 25dvw;
+}
+
+.crawl .title {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.crawl .title .episode {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  letter-spacing: 0.18em;
+}
+
+.crawl p {
+  margin-bottom: 1.2em;
+}
+
+@media (min-width: 576px) {
+  .crawl {
+    font-size: 18px;
+    margin: 35dvw;
+  }
+
+  .crawl .title {
+    font-size: 28px;
+  }
+
+  .crawl .title .episode {
+    font-size: 16px;
+  }
+
+  .crawl p {
+    margin-bottom: 1.2em;
+  }
+}
